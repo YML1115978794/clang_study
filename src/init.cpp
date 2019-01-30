@@ -22,6 +22,7 @@ void init()
     // ;
     for (auto &it : j1["底盘"]["马达"])
         std::cout << "= " << it["端口"] << std::endl;
+    std::cout << "哈哈，登入啦！！1加1等于3" << std::endl;
     // std::cout << j1["底盘"]["马达"]["左前"].get<std::string>() << std::endl;
 
     // json j2 = {
